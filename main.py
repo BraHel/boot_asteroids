@@ -57,7 +57,7 @@ def main():
             
             for everyshot in shots:
                 if everyshot.collision(ast):
-                    ast.kill()
+                    ast.split()
                     everyshot.kill()
 
 
